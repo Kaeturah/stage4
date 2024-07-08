@@ -1,0 +1,44 @@
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 480px;
+    
+}
+
+.options{
+    
+}
+.options li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    font-family: "Google Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.signup{
+    
+}
+.signup li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    font-family: "Google Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.signup li button{
+    border-radius: 5px;
+    border: 1px solid var(--1st, #212832);
+    width: 102px;
+    height: 40px;
+    flex-shrink: 0;
+}
